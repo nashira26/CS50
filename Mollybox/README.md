@@ -1,5 +1,5 @@
 # The Mollybox
-#### Video Demo:  https://youtu.be/zxXRwk99MUc
+
 #### Description:
 This is a movie rating and sharing app for mollywood cinephiles where they can rate and comment on the movies they watched, share them to other users and slso get to know their ratings on movies, then add to wishlist too.
 
