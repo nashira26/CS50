@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link href="./assets/style.css" rel="stylesheet">
+        <title>Advanced Search</title>
+    </head>
+    <body>
+
+        <header>
+            <div id="logoAdvanced">
+                <label>
+                    <span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span class="red">e</span></label><br>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="./index.html">Search</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <label id="advancedSearchTxt">Advanced Search</label>
+        <hr>
+        <div class="advancedSearchForm">
+
+            <form action="https://google.com/search" >
+                <div>
+                    <div class="label">
+                        <h4>Find pages with..</h4>
+                    </div>
+                    <div class="inputTxt">
+                    </div>
+                    <div class="toDo">
+                        <h4>To do this in the search box.</h4>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="label">
+                        <label for="as_q">all these words:</label>
+                    </div>
+                    <div class="inputTxt">
+                        <input type="text" class="adsearchTxt" name="as_q" id="as_q">
+                    </div>
+                    <div class="toDo">
+                        <p>Type the important words: tri-colour rat terrier</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="label">
+                        <label for="as_epq">this exact word or phrase:</label>
+                    </div>
+                    <div class="inputTxt">
+                        <input type="text" class="adsearchTxt" name="as_epq" id="as_epq">
+                    </div>
+                    <div class="toDo">
+                        <p>Put exact words in quotes: "rat terrier"</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="label">
+                        <label for="as_oq">any of these words:</label>
+                    </div>
+                    <div class="inputTxt">
+                        <input type="text" class="adsearchTxt" name="as_oq" id="as_oq">
+                    </div>
+                    <div class="toDo">
+                        <p>Type OR between all the words you want: miniature OR standard</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="label">
+                        <label for="as_eq">none of these words:</label>
+                    </div>
+                    <div class="inputTxt">
+                        <input type="text" class="adsearchTxt" name="as_eq" id="as_eq">
+                    </div>
+                    <div class="toDo">
+                        <p>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell</p>
+                    </div>
+                </div>
+                <div id="adInputBtn">
+                    <input type="submit" id="advanced_button" value="Advanced Search"><br>
+                </div>
+            </form>
+        </div>
+
+    </body>
+</html>
