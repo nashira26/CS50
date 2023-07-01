@@ -1,0 +1,14 @@
+sort1 uses: Bubble sort
+
+How do you know?: chose bubble sort after finding the other two sorting methods
+
+sort2 uses: Merge sort
+
+How do you know?: Running the programs on all 3 random.txt files, noticed that one program takes relatively low time than other two.
+Merge sort takes lower time(nlogn) comparing the other two in sorting in the worst case, merge sort is chosen
+
+sort3 uses: Selection sort
+
+How do you know?: Running the programs on all 3 sorted.txt files, noticed that one program takes relatively high time than other two.
+Selection sort takes higher time(n^2) comparing the other two in sorting in the best case, Selection sort is chosen
+
